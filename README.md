@@ -74,7 +74,7 @@ __所有图片务必使用矢量图__
    Title = {{CUBIC}: a New {TCP}-Friendly High-Speed {TCP} Variant},
    ```
 
-* Booktitle项尽量使用简称，会议简称为 "Proc.~会议名"，期刊简称为 "Trans.~期刊名"。
+* Booktitle项尽量使用简称，会议简称为 "in Proc.~会议名"，期刊简称为 "Trans.~期刊名"。 %注：~是LaTeX中半个字符大小的空格
 
 * 不要重复出现相同内容，若在Booktitle中已有出版方（如IEEE），则不需要再加入publisher。
 
@@ -86,7 +86,7 @@ __所有图片务必使用矢量图__
   @inproceedings{hop-2020infocomm,
   	Title={{Hop-by-hop Multipath Routing: Choosing the Right Nexthop Set}},
   	Author={Schneider, Klaus and Zhang, Beichuan and Benmohamed, Lotfi},
-  	Booktitle={Proc.~IEEE INFOCOM},
+  	Booktitle={in Proc.~IEEE INFOCOM},
   	Pages={2273--2282},
   	Year={2020}
   }
@@ -98,7 +98,7 @@ __所有图片务必使用矢量图__
   @inproceedings{hull-nsdi12,
   	Title = {Less is More: Trading a Little Bandwidth for Ultra-low Latency in the Data Center},
   	Author = {M. Alizadeh and T. Edsall and B. Prabhakar},
-  	Booktitle = {Proc.~10th USENIX Symposium on Networked Systems Design and Implementation(NSDI)},
+  	Booktitle = {in Proc.~10th USENIX Symposium on Networked Systems Design and Implementation(NSDI)},
   	Year = {2012}
   }
   ```
@@ -120,7 +120,7 @@ __所有图片务必使用矢量图__
   }
   ```
 
-期刊的卷期号和页码号很重要，注意已检索的论文要加入该字段；
+期刊的卷期号和页码号很重要，注意已检索的论文要加入该字段；如已录用但未正式发表的论文，暂无卷期号和页码号，增加DOI号可唯一标识论文
 
 一般期刊都会有对应的简称，如"IEEE/ACM Transactions on Networking"的简称为"IEEE/ACM Trans.~Netw."。可以在IEEE官网查到论文简称，参考文献格式尽量使用简称。
 
